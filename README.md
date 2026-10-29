@@ -10,7 +10,7 @@ The original R1–R7 wording is preserved in `1_requirements.md` and `requiremen
 
 | Student ID | Name | Branch | Pull Request |
 |---|---|---|---|
-| 20240377 | Omar Abdelsamad Hassan | Omar | pending |
+| 20240377 | Omar Abdelsamad Hassan | Omar | https://github.com/youssef-m-saber/clinic-appointments-system/pull/4 |
 | 20240708 | Youssef Mohamed Saber | youssef | https://github.com/youssef-m-saber/clinic-appointments-system/pull/1 |
 | 20240815 | Ahmed Eltaher Bakry | AhmedEltaher | Pending |
 | 20240814 | Abdelrahman Yasser Adel | Abdelrahman | https://github.com/youssef-m-saber/clinic-appointments-system/pull/3 |
