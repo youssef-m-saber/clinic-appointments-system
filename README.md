@@ -68,3 +68,5 @@ The CI workflow in `.github/workflows/check.yml` runs the application and unit t
 7. Check the Actions tab and confirm the check is green.
 
 **Before submission:** replace the pending branch/PR entries with the real values, complete and verify the Conflict Drill, verify the selected N, check the diagrams on GitHub, repeat the program/tests after any changes, and add only AI mistakes that the team actually observed.
+Conflict Drill: Youssef Mohamed Saber
+
