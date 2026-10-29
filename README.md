@@ -15,7 +15,7 @@ For counting, future `Pending` and `Accepted` appointments count toward N; `Decl
 | 20240377 | Omar Abdelsamad Hassan | Pending | Pending |
 | 20240708 | Youssef Mohamed Saber | Pending | Pending |
 | 20240815 | Ahmed Eltaher Bakry | Pending | Pending |
-| 20240814 | Abdelrahman Yasser Adel | Pending | Pending |
+| 20240814 | Abdelrahman Yasser Adel | Abdelrahman | Pending |
 
 **N:** 3
 
