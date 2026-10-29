@@ -13,7 +13,7 @@ For counting, future `Pending` and `Accepted` appointments count toward N; `Decl
 | Student ID | Name | Branch | Pull Request |
 |---|---|---|---|
 | 20240377 | Omar Abdelsamad Hassan | Pending | Pending |
-| 20240708 | Youssef Mohamed Saber | Pending | Pending |
+| 20240708 | Youssef Mohamed Saber | youssef | https://github.com/youssef-m-saber/clinic-appointments-system/pull/1 |
 | 20240815 | Ahmed Eltaher Bakry | Pending | Pending |
 | 20240814 | Abdelrahman Yasser Adel | Pending | Pending |
 
