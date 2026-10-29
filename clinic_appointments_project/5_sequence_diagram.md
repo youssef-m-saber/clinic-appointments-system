@@ -1,4 +1,5 @@
 
+```mermaid
 sequenceDiagram
     actor Patient
     participant ClinicSystem
@@ -33,12 +34,4 @@ sequenceDiagram
     else Slot unavailable or upcoming count is N
         ClinicSystem-->>Patient: Reject request with reason
     end
-
-
-## Sequence review checklist
-
-- Availability is shown before the Patient submits a booking request.
-- The system checks the Patient's upcoming appointment count before creating a new appointment.
-- The Doctor reviews a `Pending` request after the request is created.
-- The `alt / else` branches show both Doctor decisions and the booking-precondition failure.
-- Responses use dashed arrows, and the message names match methods in the class diagram and `main.py`.
+```
