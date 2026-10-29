@@ -4,9 +4,7 @@ An educational Doctor Appointment Booking System based strictly on the supplied 
 
 ## Requirements and selected N
 
-The original R1–R7 wording is preserved in `1_requirements.md` and `requirements.txt`. The team-selected value is **N = 3 upcoming appointments per patient**. Confirm that all team members agree on this choice and keep N consistent in the documents, `main.py`, and tests.
-
-For counting, future `Pending` and `Accepted` appointments count toward N; `Declined` appointments do not. This interpretation prevents a patient from creating several pending requests beyond the limit.
+The original R1–R7 wording is preserved in `1_requirements.md` and `requirements.txt`. The team-selected value is **N = 3 upcoming appointments per patient**.
 
 ## Team members and collaboration status
 
@@ -66,7 +64,4 @@ The CI workflow in `.github/workflows/check.yml` runs the application and unit t
 5. Merge the first PR, resolve the intentional conflict in the next PR while preserving every name, and repeat until all members' PRs are merged.
 6. Each member then contributes their assigned deliverable on their own branch and through a PR.
 7. Check the Actions tab and confirm the check is green.
-
-**Before submission:** replace the pending branch/PR entries with the real values, complete and verify the Conflict Drill, verify the selected N, check the diagrams on GitHub, repeat the program/tests after any changes, and add only AI mistakes that the team actually observed.
-
 
