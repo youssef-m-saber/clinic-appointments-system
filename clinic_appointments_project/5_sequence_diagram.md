@@ -1,4 +1,3 @@
-
 ```mermaid
 sequenceDiagram
     actor Patient
@@ -29,9 +28,9 @@ sequenceDiagram
             ClinicSystem->>Appointment: decline()
             Appointment-->>ClinicSystem: Declined
             ClinicSystem-->>Doctor: Declined
-            ClinicSystem-->>Patient: Declined status; release slot
+            ClinicSystem-->>Patient: Declined status, slot released
         end
-    else Slot unavailable or upcoming count is N
+    else Slot unavailable or appointment limit reached
         ClinicSystem-->>Patient: Reject request with reason
     end
 ```
