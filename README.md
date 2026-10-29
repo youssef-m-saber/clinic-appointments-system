@@ -17,8 +17,6 @@ The original R1–R7 wording is preserved in `1_requirements.md` and `requiremen
 
 **N:** 3
 
-Conflict Drill: Youssef Mohamed Saber; Ahmed Eltaher Bakry
-
 ## Required deliverables
 
 - `1_requirements.md` — P1 classification, original R1–R7 wording and N decision.
