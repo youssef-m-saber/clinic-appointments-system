@@ -1,6 +1,4 @@
-# 5. Sequence Diagram (P6)
 
-```mermaid
 sequenceDiagram
     actor Patient
     participant ClinicSystem
@@ -12,16 +10,15 @@ sequenceDiagram
     Doctor-->>ClinicSystem: availableSlots
     ClinicSystem-->>Patient: availableSlots
 
-    Patient->>Patient: bookAppointment(clinic, doctor, slot)
     Patient->>ClinicSystem: bookAppointment(patient, doctor, slot)
     ClinicSystem->>ClinicSystem: getUpcomingAppointmentCount(patient)
 
-    alt slot is available and upcoming count is less than N
+    alt Slot is available and count is less than N
         ClinicSystem->>Appointment: create(appointmentId, patient, doctor, slot)
         Appointment-->>ClinicSystem: appointment
         ClinicSystem-->>Patient: Pending request
-        Doctor->>Doctor: reviewAppointment(clinic, appointment, decision)
         Doctor->>ClinicSystem: reviewAppointment(doctor, appointment, decision)
+
         alt Doctor accepts
             ClinicSystem->>Appointment: accept()
             Appointment-->>ClinicSystem: Accepted
@@ -33,10 +30,10 @@ sequenceDiagram
             ClinicSystem-->>Doctor: Declined
             ClinicSystem-->>Patient: Declined status; release slot
         end
-    else slot unavailable or upcoming count is N
+    else Slot unavailable or upcoming count is N
         ClinicSystem-->>Patient: Reject request with reason
     end
-```
+
 
 ## Sequence review checklist
 
